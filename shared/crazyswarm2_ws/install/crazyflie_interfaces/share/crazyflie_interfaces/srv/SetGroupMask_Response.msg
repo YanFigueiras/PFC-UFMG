@@ -1,0 +1,1 @@
+/CrazySim/crazyswarm2_ws/build/crazyflie_interfaces/rosidl_cmake/srv/SetGroupMask_Response.msg

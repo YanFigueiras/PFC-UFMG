@@ -1,0 +1,28 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/AttitudeSetpoint.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatistics.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/ConnectionStatisticsArray.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/FullState.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogDataGeneric.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Hover.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/LogBlock.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Position.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/Status.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/TrajectoryPolynomialPiece.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:msg/VelocityWorld.msg",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/GoTo.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Land.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/NotifySetpointsStop.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/SetGroupMask.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/StartTrajectory.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Stop.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Takeoff.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UpdateParams.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/UploadTrajectory.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/RemoveLogging.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/AddLogging.srv",
+    "/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_interfaces:srv/Arm.srv"
+  ]
+}

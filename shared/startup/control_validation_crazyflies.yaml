@@ -1,0 +1,42 @@
+# Single-drone configuration for the full-state control validation session.
+fileversion: 3
+
+robots:
+  cf_1:
+    enabled: true
+    uri: udp://127.0.0.1:19850
+    initial_position: [0.0, 0.0, 0.0]
+    type: cf_sim
+
+robot_types:
+  cf_sim:
+    motion_capture:
+      tracking: "vendor"
+    big_quad: false
+    firmware_logging:
+      enabled: true
+      default_topics:
+        pose:
+          frequency: 30
+
+all:
+  firmware_logging:
+    enabled: true
+    default_topics:
+      pose:
+        frequency: 30
+      status:
+        frequency: 1
+  firmware_params:
+    commander:
+      enHighLevel: 1
+    stabilizer:
+      estimator: 2
+      controller: 2
+    locSrv:
+      extPosStdDev: 1e-3
+      extQuatStdDev: 0.5e-1
+  reference_frame: "world"
+  broadcasts:
+    num_repeats: 15
+    delay_between_repeats_ms: 1

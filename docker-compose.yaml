@@ -1,0 +1,37 @@
+services:  
+  # Crazysim container
+  crazysim:
+    build:
+      context: ./
+      dockerfile: docker/sim.Dockerfile
+      target: crazysim
+    container_name: crazysim
+    environment:
+      - DISPLAY=${DISPLAY}
+      - ROS_DOMAIN_ID=42
+      - RMW_IMPLEMENTATION=rmw_fastrtps_cpp
+      - FASTDDS_BUILTIN_TRANSPORTS=UDPv4
+
+      # NVIDIA environment 
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=graphics,display,compute,utility
+      - __GLX_VENDOR_LIBRARY_NAME=nvidia
+      - __NV_PRIME_RENDER_OFFLOAD=1
+    runtime: nvidia
+    gpus: all
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - /dev/dri:/dev/dri
+      - ./shared/pfc_ws:/CrazySim/pfc_ws
+      - ./shared/crazyflie-firmware:/CrazySim/crazyflie-firmware
+      - ./shared/crazyflie-lib-python:/CrazySim/crazyflie-lib-python
+      - ./shared/crazyswarm2_ws:/CrazySim/crazyswarm2_ws
+      - ./shared/startup:/CrazySim/startup
+      - ./shared/startup/tmux.conf:/root/.tmux.conf
+      # - ./crazyflies.yaml:/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie/config/crazyflies.yaml
+      # - ./agents.txt:/CrazySim/crazyflie-firmware/tools/crazyflie-simulation/simulator_files/gazebo/launch/drone_spawn_list/agents.txt
+    tty: true            # Keeps the container running
+    stdin_open: true     # Allows you to interact with the shell
+    network_mode: "host"
+    ipc: "host"
+  

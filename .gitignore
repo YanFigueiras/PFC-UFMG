@@ -1,0 +1,7 @@
+# Python bytecode (regenerado em build)
+__pycache__/
+*.py[cod]
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

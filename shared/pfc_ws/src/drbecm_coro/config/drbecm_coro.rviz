@@ -1,0 +1,130 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 70
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Grid1
+        - /Mapa Explorado1
+        - /DRBECM Markers1
+      Splitter Ratio: 0.6000000238418579
+    Tree Height: 248
+  - Class: rviz_common/Selection
+    Name: Selection
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.25
+      Cell Size: 0.30000001192092896
+      Class: rviz_default_plugins/Grid
+      Color: 80; 80; 80
+      Enabled: true
+      Line Style:
+        Line Width: 0.019999999552965164
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 18
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Alpha: 0.6600000262260437
+      Class: rviz_default_plugins/Map
+      Color Scheme: map
+      Draw Behind: true
+      Enabled: true
+      Name: Mapa Explorado
+      Topic:
+        Depth: 1
+        Durability Policy: Volatile
+        Filter size: 10
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /drbecm/map
+      Update Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /drbecm/map_updates
+      Use Timestamp: false
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: DRBECM Markers
+      Namespaces:
+        base: true
+        comm_range: true
+        coverage: true
+        drones: true
+        frontiers: true
+        labels: true
+        rng: true
+        sensor_range: true
+        targets: true
+      Topic:
+        Depth: 5
+        Durability Policy: Volatile
+        History Policy: Keep Last
+        Reliability Policy: Reliable
+        Value: /drbecm/markers
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 26; 26; 26
+    Fixed Frame: world
+    Frame Rate: 25
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+  Transformation:
+    Current:
+      Class: rviz_default_plugins/TF
+  Value: true
+  Views:
+    Current:
+      Angle: 0
+      Class: rviz_default_plugins/TopDownOrtho
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Invert Z Axis: false
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Scale: 160.01332092285156
+      Target Frame: <Fixed Frame>
+      Value: TopDownOrtho
+      X: 0.44999998807907104
+      Y: 0
+    Saved: ~
+Window Geometry:
+  Displays:
+    collapsed: true
+  Height: 1011
+  Hide Left Dock: true
+  Hide Right Dock: false
+  QMainWindow State: 000000ff00000000fd00000001000000000000019b0000032efc0200000003fb000000100044006900730070006c006100790073000000003b00000179000000c700fffffffb0000001200530065006c0065006300740069006f006e00000001ba000000b70000005c00fffffffb0000000a005600690065007700730000000277000000f2000000a000ffffff000003a50000039d00000004000000040000000800000008fc0000000100000002000000010000000a0054006f006f006c00730100000000ffffffff0000000000000000
+  Selection:
+    collapsed: true
+  Views:
+    collapsed: true
+  Width: 933
+  X: 1973
+  Y: 32

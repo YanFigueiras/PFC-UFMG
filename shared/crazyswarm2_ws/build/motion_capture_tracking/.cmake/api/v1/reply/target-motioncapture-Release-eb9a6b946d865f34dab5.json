@@ -1,0 +1,426 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "deps/libmotioncapture/motioncapture.cpython-310-x86_64-linux-gnu.so"
+		}
+	],
+	"backtrace" : 4,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"__Python3_add_library",
+			"python3_add_library",
+			"pybind11_add_module",
+			"target_link_libraries",
+			"add_compile_options",
+			"add_definitions",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/usr/share/cmake-3.22/Modules/FindPython/Support.cmake",
+			"/usr/share/cmake-3.22/Modules/FindPython3.cmake",
+			"deps/libmotioncapture/deps/pybind11/tools/pybind11NewTools.cmake",
+			"deps/libmotioncapture/CMakeLists.txt",
+			"deps/libmotioncapture/deps/vrpn/CMakeLists.txt",
+			"deps/libmotioncapture/deps/vrpn/quat/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 247,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 189,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 494,
+				"parent" : 2
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 3330,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 232,
+				"parent" : 1
+			},
+			{
+				"command" : 4,
+				"file" : 3,
+				"line" : 251,
+				"parent" : 0
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 1341,
+				"parent" : 7
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 5,
+				"line" : 17,
+				"parent" : 9
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 5,
+				"file" : 6,
+				"line" : 5,
+				"parent" : 11
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 22,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 195,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 80,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 98,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 124,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 61,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 3,
+				"line" : 175,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 3,
+				"line" : 221,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 3335,
+				"parent" : 3
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 194,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O3 -DNDEBUG -fPIC -fvisibility=hidden"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wextra"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wpedantic"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-flto"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-fat-lto-objects"
+				},
+				{
+					"fragment" : "-std=c++14"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_ALL_NO_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "BOOST_DATE_TIME_NO_LIB"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "BOOST_REGEX_NO_LIB"
+				},
+				{
+					"backtrace" : 6,
+					"define" : "BOOST_SYSTEM_DYN_LINK"
+				},
+				{
+					"backtrace" : 14,
+					"define" : "ENABLE_FZMOTION"
+				},
+				{
+					"backtrace" : 15,
+					"define" : "ENABLE_OPTITRACK"
+				},
+				{
+					"backtrace" : 16,
+					"define" : "ENABLE_OPTITRACK_CLOSED_SOURCE"
+				},
+				{
+					"backtrace" : 17,
+					"define" : "ENABLE_QUALISYS"
+				},
+				{
+					"backtrace" : 18,
+					"define" : "ENABLE_VICON"
+				},
+				{
+					"backtrace" : 19,
+					"define" : "ENABLE_VRPN"
+				},
+				{
+					"backtrace" : 13,
+					"define" : "_BUILD_STATIC_LIB"
+				},
+				{
+					"define" : "motioncapture_EXPORTS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 20,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/usr/include/eigen3"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/NatNetSDKCrossplatform/include"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/qualisys_cpp_sdk"
+				},
+				{
+					"backtrace" : 20,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vrpn"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/vicon-datastream-sdk/Vicon/CrossMarket/DataStream/ViconDataStreamSDK_CPP"
+				},
+				{
+					"backtrace" : 21,
+					"isSystem" : true,
+					"path" : "/usr/include/python3.10"
+				},
+				{
+					"backtrace" : 22,
+					"isSystem" : true,
+					"path" : "/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/pybind11/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					22,
+					22,
+					22,
+					6
+				],
+				"standard" : "14"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 6,
+			"id" : "libmotioncapture::@09785d0e4e5fbc268e16"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "ViconDataStreamSDK_CPP::@276107015065727bad87"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "qualisys_cpp_sdk::@5a99e0bc11ee08158fb6"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "vrpn::@b5f54566f3aaf3e43f1e"
+		},
+		{
+			"backtrace" : 6,
+			"id" : "quat::@26b651c3ef0d73d9d3ae"
+		}
+	],
+	"id" : "motioncapture::@09785d0e4e5fbc268e16",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-flto",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-L/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/NatNetSDKCrossplatform/lib/ubuntu",
+				"role" : "libraryPath"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking/deps/libmotioncapture/deps/NatNetSDKCrossplatform/lib/ubuntu",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "liblibmotioncapture.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/vicon-datastream-sdk/libViconDataStreamSDK_CPP.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_thread.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_atomic.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_chrono.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "/usr/lib/x86_64-linux-gnu/libboost_system.so.1.74.0",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lNatNet",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/qualisys_cpp_sdk/libqualisys_cpp_sdk.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "deps/vrpn/libvrpn.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 8,
+				"fragment" : "deps/vrpn/quat/libquat.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "motioncapture",
+	"nameOnDisk" : "motioncapture.cpython-310-x86_64-linux-gnu.so",
+	"paths" : 
+	{
+		"build" : "deps/libmotioncapture",
+		"source" : "deps/libmotioncapture"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 4,
+			"compileGroupIndex" : 0,
+			"path" : "deps/libmotioncapture/src/python_bindings.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "MODULE_LIBRARY"
+}

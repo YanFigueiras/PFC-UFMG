@@ -1,0 +1,1 @@
+/CrazySim/crazyswarm2_ws/src/crazyswarm2/crazyflie_examples/crazyflie_examples/cmd_full_state.py

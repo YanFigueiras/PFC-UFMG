@@ -1,0 +1,19 @@
+name: control_validation_real
+root: /CrazySim
+
+startup_window: control_validation
+
+pre_window: |
+  source /opt/ros/humble/setup.bash
+  if [ -f /CrazySim/crazyswarm2_ws/install/setup.bash ]; then
+    source /CrazySim/crazyswarm2_ws/install/setup.bash
+  fi
+  if [ -f /CrazySim/.colcon/pfc_ws/install/setup.bash ]; then
+    source /CrazySim/.colcon/pfc_ws/install/setup.bash
+  fi
+
+windows:
+  - control_validation:
+      root: /CrazySim/pfc_ws
+      panes:
+        - ros2 launch control_validation control_validation.launch.py use_sim_time:=false rviz:=true

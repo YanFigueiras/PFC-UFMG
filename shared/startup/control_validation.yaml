@@ -1,0 +1,27 @@
+name: control_validation
+root: /CrazySim
+
+startup_window: sitl_gazebo
+
+pre_window: |
+  source /opt/ros/humble/setup.bash
+  if [ -f /CrazySim/crazyswarm2_ws/install/setup.bash ]; then
+    source /CrazySim/crazyswarm2_ws/install/setup.bash
+  fi
+  if [ -f /CrazySim/.colcon/pfc_ws/install/setup.bash ]; then
+    source /CrazySim/.colcon/pfc_ws/install/setup.bash
+  fi
+
+windows:
+  - sitl_gazebo:
+      root: /CrazySim/crazyflie-firmware
+      panes:
+        - bash tools/crazyflie-simulation/simulator_files/gazebo/launch/sitl_singleagent.sh -m crazyflie -w coro -x 0 -y 0
+  - crazyswarm2:
+      root: /CrazySim/crazyswarm2_ws
+      panes:
+        - sleep 6; ros2 launch crazyflie launch.py backend:=cflib crazyflies_yaml_file:=/CrazySim/startup/control_validation_crazyflies.yaml
+  - control_validation:
+      root: /CrazySim/pfc_ws
+      panes:
+        - sleep 12; ros2 launch control_validation control_validation.launch.py

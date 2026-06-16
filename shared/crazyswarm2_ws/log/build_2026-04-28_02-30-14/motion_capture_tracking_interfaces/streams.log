@@ -1,0 +1,242 @@
+[0.013s] Invoking command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces
+[0.117s] -- The C compiler identification is GNU 11.4.0
+[0.216s] -- The CXX compiler identification is GNU 11.4.0
+[0.229s] -- Detecting C compiler ABI info
+[0.320s] -- Detecting C compiler ABI info - done
+[0.334s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.335s] -- Detecting C compile features
+[0.336s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.455s] -- Detecting CXX compiler ABI info - done
+[0.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.467s] -- Detecting CXX compile features
+[0.467s] -- Detecting CXX compile features - done
+[0.472s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.760s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.830s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.885s] -- Found builtin_interfaces: 1.2.2 (/opt/ros/humble/share/builtin_interfaces/cmake)
+[0.950s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.957s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.978s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.002s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.036s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.058s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.102s] -- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.544s] -- Found ament_cmake_cppcheck: 0.12.15 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[1.549s] -- Found ament_cmake_cpplint: 0.12.15 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[1.554s] -- Found ament_cmake_uncrustify: 0.12.15 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[1.559s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.204s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.468s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.512s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.515s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.557s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.558s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.558s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.558s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.593s] -- Found PythonExtra: .so  
+[2.838s] -- Using numpy include directory: /usr/local/lib/python3.10/dist-packages/numpy/core/include
+[2.866s] -- Found ament_cmake_flake8: 0.12.15 (/opt/ros/humble/share/ament_cmake_flake8/cmake)
+[2.869s] -- Found ament_cmake_pep257: 0.12.15 (/opt/ros/humble/share/ament_cmake_pep257/cmake)
+[3.008s] -- Configuring done
+[3.051s] -- Generating done
+[3.064s] -- Build files have been written to: /CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces
+[3.081s] Invoked command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /CrazySim/crazyswarm2_ws/src/motion_capture_tracking/motion_capture_tracking_interfaces -DCMAKE_BUILD_TYPE=Release -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces
+[3.083s] Invoking command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[3.141s] [  2%] Generating C code for ROS interfaces
+[3.155s] [  5%] Generating C++ code for ROS interfaces
+[3.157s] [  7%] Generating Rust code for ROS interfaces
+[3.169s] [  7%] Built target ament_cmake_python_symlink_motion_capture_tracking_interfaces
+[3.418s] running egg_info
+[3.419s] creating motion_capture_tracking_interfaces.egg-info
+[3.419s] writing motion_capture_tracking_interfaces.egg-info/PKG-INFO
+[3.419s] writing dependency_links to motion_capture_tracking_interfaces.egg-info/dependency_links.txt
+[3.420s] writing top-level names to motion_capture_tracking_interfaces.egg-info/top_level.txt
+[3.420s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.421s] reading manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.422s] writing manifest file 'motion_capture_tracking_interfaces.egg-info/SOURCES.txt'
+[3.452s] [  7%] Built target ament_cmake_python_build_motion_capture_tracking_interfaces_egg
+[3.543s] [  7%] Built target motion_capture_tracking_interfaces__rs
+[3.622s] [ 10%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.c.o
+[3.626s] [ 12%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_c.dir/rosidl_generator_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.c.o
+[3.629s] [ 12%] Built target motion_capture_tracking_interfaces__cpp
+[3.648s] [ 15%] Generating C++ introspection for ROS interfaces
+[3.649s] [ 20%] Generating C++ type support for eProsima Fast-RTPS
+[3.649s] [ 20%] Generating C++ type support dispatch for ROS interfaces
+[3.785s] [ 22%] Linking C shared library libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[3.825s] [ 22%] Built target motion_capture_tracking_interfaces__rosidl_generator_c
+[3.836s] [ 25%] Generating C type support for eProsima Fast-RTPS
+[3.838s] [ 27%] Generating C type support dispatch for ROS interfaces
+[3.842s] [ 30%] Generating C introspection for ROS interfaces
+[3.974s] [ 32%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.cpp.o
+[3.976s] [ 35%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.cpp.o
+[4.050s] [ 37%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o
+[4.056s] [ 40%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o
+[4.132s] [ 42%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose_array__type_support.cpp.o
+[4.132s] [ 45%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/motion_capture_tracking_interfaces/msg/detail/dds_fastrtps/named_pose__type_support.cpp.o
+[4.187s] [ 47%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose_array__type_support.cpp.o
+[4.187s] [ 50%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/motion_capture_tracking_interfaces/msg/named_pose__type_support.cpp.o
+[4.243s] [ 52%] Linking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[4.261s] [ 55%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.c.o
+[4.261s] [ 57%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.c.o
+[4.307s] [ 57%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c
+[4.326s] [ 60%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support_c.cpp.o
+[4.330s] [ 62%] Building CXX object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support_c.cpp.o
+[4.350s] [ 65%] Linking C shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[4.408s] [ 65%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c
+[4.554s] [ 67%] Linking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[4.633s] [ 67%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_cpp
+[4.814s] [ 70%] Linking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.827s] [ 72%] Linking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.887s] [ 72%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp
+[4.895s] [ 75%] Linking CXX shared library libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.927s] [ 75%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c
+[4.989s] [ 75%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp
+[5.019s] [ 75%] Built target motion_capture_tracking_interfaces
+[5.051s] [ 77%] Generating Python code for ROS interfaces
+[5.428s] [ 77%] Built target motion_capture_tracking_interfaces__py
+[5.452s] [ 80%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_s.c.o
+[5.453s] [ 82%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_generator_py.dir/rosidl_generator_py/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c.o
+[5.628s] [ 85%] Linking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[5.686s] [ 85%] Built target motion_capture_tracking_interfaces__rosidl_generator_py
+[5.713s] [ 87%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o
+[5.714s] [ 90%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o
+[5.721s] [ 92%] Building C object CMakeFiles/motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c.o
+[6.011s] [ 95%] Linking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.015s] [ 97%] Linking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.024s] [100%] Linking C shared library rosidl_generator_py/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.067s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_introspection_c__pyext
+[6.125s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_c__pyext
+[6.156s] [100%] Built target motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[6.228s] Invoked command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces -- -j16 -l16
+[6.239s] Invoking command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces
+[6.254s] -- Install configuration: "Release"
+[6.255s] -- Execute custom install script
+[6.255s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rosidl_interfaces/motion_capture_tracking_interfaces
+[6.264s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__functions.h
+[6.271s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.h
+[6.281s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.h
+[6.289s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__functions.h
+[6.297s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.h
+[6.305s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.h
+[6.313s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.h
+[6.321s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.h
+[6.329s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_c__visibility_control.h
+[6.337s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.sh
+[6.350s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/library_path.dsv
+[6.359s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_c.h
+[6.373s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_c.h
+[6.381s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.394s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__builder.hpp
+[6.401s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__struct.hpp
+[6.411s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__traits.hpp
+[6.420s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__type_support.hpp
+[6.428s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__builder.hpp
+[6.441s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__struct.hpp
+[6.450s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__traits.hpp
+[6.461s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__type_support.hpp
+[6.474s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose.hpp
+[6.494s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/named_pose_array.hpp
+[6.508s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.524s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[6.538s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.552s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.572s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_c.h
+[6.581s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_c.h
+[6.594s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.605s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose__rosidl_typesupport_introspection_cpp.hpp
+[6.623s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/include/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces/msg/detail/named_pose_array__rosidl_typesupport_introspection_cpp.hpp
+[6.635s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.sh
+[6.653s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/pythonpath.dsv
+[6.661s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.6-py3.10.egg-info/PKG-INFO
+[6.668s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.6-py3.10.egg-info/SOURCES.txt
+[6.677s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.6-py3.10.egg-info/dependency_links.txt
+[6.690s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces-1.0.6-py3.10.egg-info/top_level.txt
+[6.699s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py
+[6.708s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_c.c
+[6.716s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.723s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/_motion_capture_tracking_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[6.732s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[6.740s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.748s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.757s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.765s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py
+[6.779s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py
+[6.786s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py
+[6.799s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array_s.c
+[6.807s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_s.c
+[6.821s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.822s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.822s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/motion_capture_tracking_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.822s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/rust_packages/motion_capture_tracking_interfaces
+[6.836s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/Cargo.toml
+[6.849s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/build.rs
+[6.862s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/lib.rs
+[6.875s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg.rs
+[6.883s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/rust/src/msg/rmw.rs
+[6.891s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.idl
+[6.905s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.idl
+[6.913s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPose.msg
+[6.926s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/msg/NamedPoseArray.msg
+[6.934s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking_interfaces
+[6.943s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking_interfaces
+[6.952s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.sh
+[6.965s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/ament_prefix_path.dsv
+[6.979s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.sh
+[6.992s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/environment/path.dsv
+[7.006s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.bash
+[7.015s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.sh
+[7.022s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.zsh
+[7.031s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/local_setup.dsv
+[7.039s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.dsv
+[7.049s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/ament_index/resource_index/packages/motion_capture_tracking_interfaces
+[7.055s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake-extras.cmake
+[7.063s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.071s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.080s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[7.088s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[7.096s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[7.104s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[7.118s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig.cmake
+[7.131s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfacesConfig-version.cmake
+[7.144s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/package.xml
+[7.157s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so
+[7.158s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_c.so" to ""
+[7.158s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so
+[7.159s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[7.159s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[7.159s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[7.160s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so
+[7.160s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[7.160s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so
+[7.161s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_c.so" to ""
+[7.161s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so
+[7.162s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[7.162s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so
+[7.162s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_typesupport_cpp.so" to ""
+[7.236s] Listing '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces'...
+[7.236s] Compiling '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/__init__.py'...
+[7.236s] Listing '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg'...
+[7.236s] Compiling '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/__init__.py'...
+[7.236s] Compiling '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose.py'...
+[7.236s] Compiling '/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages/motion_capture_tracking_interfaces/msg/_named_pose_array.py'...
+[7.245s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so
+[7.245s] -- Set runtime path of "/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib/libmotion_capture_tracking_interfaces__rosidl_generator_py.so" to ""
+[7.246s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport.cmake
+[7.246s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cExport-release.cmake
+[7.246s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[7.246s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cExport-release.cmake
+[7.247s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_cppExport.cmake
+[7.247s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[7.247s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[7.247s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[7.248s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cExport-release.cmake
+[7.248s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport.cmake
+[7.248s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cExport-release.cmake
+[7.248s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[7.249s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_introspection_cppExport-release.cmake
+[7.249s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport.cmake
+[7.250s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/motion_capture_tracking_interfaces__rosidl_typesupport_cppExport-release.cmake
+[7.250s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport.cmake
+[7.250s] -- Installing: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/share/motion_capture_tracking_interfaces/cmake/export_motion_capture_tracking_interfaces__rosidl_generator_pyExport-release.cmake
+[7.253s] Invoked command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/motion_capture_tracking_interfaces

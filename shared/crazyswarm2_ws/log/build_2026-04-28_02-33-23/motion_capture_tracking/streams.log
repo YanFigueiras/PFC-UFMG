@@ -1,0 +1,46 @@
+[0.014s] Invoking command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/motion_capture_tracking -- -j16 -l16
+[0.080s] Consolidate compiler generated dependencies of target quat
+[0.081s] Consolidate compiler generated dependencies of target qualisys_cpp_sdk
+[0.091s] [  7%] Built target quat
+[0.100s] [ 15%] Built target qualisys_cpp_sdk
+[0.102s] Consolidate compiler generated dependencies of target librigidbodytracker
+[0.118s] Consolidate compiler generated dependencies of target vrpn
+[0.122s] Consolidate compiler generated dependencies of target ViconDataStreamSDK_CPP
+[0.133s] [ 19%] Built target librigidbodytracker
+[0.139s] [ 65%] Built target vrpn
+[0.151s] [ 82%] Built target ViconDataStreamSDK_CPP
+[0.199s] Consolidate compiler generated dependencies of target libmotioncapture
+[0.241s] [ 96%] Built target libmotioncapture
+[0.276s] Consolidate compiler generated dependencies of target motion_capture_tracking_node
+[0.281s] [ 98%] Linking CXX executable motion_capture_tracking_node
+[1.015s] [100%] Built target motion_capture_tracking_node
+[1.035s] Invoked command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/motion_capture_tracking -- -j16 -l16
+[1.037s] Invoking command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/motion_capture_tracking
+[1.048s] -- Install configuration: "Release"
+[1.048s] -- Execute custom install script
+[1.048s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/include/vicon-datastream-sdk/DataStreamClient.h
+[1.048s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/include/vicon-datastream-sdk/IDataStreamClientBase.h
+[1.048s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/lib/cmake/vicon-datastream-sdk/vicon-datastream-sdkConfig.cmake
+[1.048s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/lib/cmake/vicon-datastream-sdk/vicon-datastream-sdkConfigVersion.cmake
+[1.049s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/motion_capture_tracking_node
+[1.049s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/lib/motion_capture_tracking/libNatNet.so
+[1.049s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/launch.py
+[1.049s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking//launch/node.launch
+[1.050s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/cfg.yaml
+[1.050s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking//config/rviz.rviz
+[1.050s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/ament_index/resource_index/package_run_dependencies/motion_capture_tracking
+[1.050s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/ament_index/resource_index/parent_prefix_path/motion_capture_tracking
+[1.050s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.sh
+[1.051s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/ament_prefix_path.dsv
+[1.051s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.sh
+[1.051s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/environment/path.dsv
+[1.051s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.bash
+[1.052s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.sh
+[1.052s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.zsh
+[1.052s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/local_setup.dsv
+[1.052s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.dsv
+[1.063s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/ament_index/resource_index/packages/motion_capture_tracking
+[1.064s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig.cmake
+[1.064s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/cmake/motion_capture_trackingConfig-version.cmake
+[1.064s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/motion_capture_tracking/share/motion_capture_tracking/package.xml
+[1.066s] Invoked command in '/CrazySim/crazyswarm2_ws/build/motion_capture_tracking' returned '0': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/motion_capture_tracking

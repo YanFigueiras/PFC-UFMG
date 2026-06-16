@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from crazyflie_interfaces/msg/AttitudeSetpoint.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module crazyflie_interfaces {
+  module msg {
+    struct AttitudeSetpoint {
+      std_msgs::msg::Header header;
+
+      float roll;
+
+      float pitch;
+
+      float yaw_rate;
+
+      uint16 thrust;
+    };
+  };
+};

@@ -1,0 +1,27 @@
+name: crazyflie_sim
+root: /CrazySim
+
+startup_window: sitl_gazebo
+
+pre_window: |
+  source /opt/ros/humble/setup.bash
+  if [ -f /CrazySim/crazyswarm2_ws/install/setup.bash ]; then
+    source /CrazySim/crazyswarm2_ws/install/setup.bash
+  fi
+  if [ -f /CrazySim/.colcon/pfc_ws/install/setup.bash ]; then
+    source /CrazySim/.colcon/pfc_ws/install/setup.bash
+  fi
+
+windows:
+  - sitl_gazebo:
+      root: /CrazySim/crazyflie-firmware
+      panes:
+        - bash tools/crazyflie-simulation/simulator_files/gazebo/launch/sitl_multiagent_square.sh -n 4 -m crazyflie
+  - crazyswarm2:
+      root: /CrazySim/crazyswarm2_ws
+      panes:
+        - sleep 6; ros2 launch crazyflie launch.py backend:=cflib
+  - drbecm:
+      root: /CrazySim/pfc_ws
+      panes:
+        - sleep 12; ros2 launch drbecm_coro drbecm.launch.py

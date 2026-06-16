@@ -1,0 +1,89 @@
+[0.258s] Invoking command in '/CrazySim/crazyswarm2_ws/build/crazyflie': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/crazyflie -- -j16 -l16
+[0.322s] Consolidate compiler generated dependencies of target crazyflieLinkCpp
+[0.336s] Consolidate compiler generated dependencies of target teleop
+[0.339s] [ 24%] Built target crazyflieLinkCpp
+[0.351s] Consolidate compiler generated dependencies of target crazyflie_cpp
+[0.362s] [ 26%] Linking CXX executable teleop
+[0.365s] [ 34%] Built target crazyflie_cpp
+[0.391s] Consolidate compiler generated dependencies of target listLogVariables
+[0.394s] Consolidate compiler generated dependencies of target console
+[0.398s] Consolidate compiler generated dependencies of target battery
+[0.398s] Consolidate compiler generated dependencies of target listParams
+[0.399s] Consolidate compiler generated dependencies of target reboot
+[0.401s] Consolidate compiler generated dependencies of target listMemories
+[0.403s] Consolidate compiler generated dependencies of target scan
+[0.408s] Consolidate compiler generated dependencies of target crazyflie_server
+[0.409s] Consolidate compiler generated dependencies of target downloadUSDLogfile
+[0.413s] Consolidate compiler generated dependencies of target log
+[0.415s] Consolidate compiler generated dependencies of target version
+[0.417s] Consolidate compiler generated dependencies of target comCheck
+[0.421s] [ 39%] Built target listLogVariables
+[0.424s] [ 43%] Built target console
+[0.430s] [ 48%] Built target listMemories
+[0.434s] Consolidate compiler generated dependencies of target setParam
+[0.442s] [ 60%] Built target scan
+[0.443s] [ 73%] Built target listParams
+[0.443s] [ 73%] Built target version
+[0.444s] [ 68%] Built target log
+[0.444s] [ 60%] Built target reboot
+[0.447s] [ 78%] Built target battery
+[0.449s] [ 80%] Linking CXX executable crazyflie_server
+[0.453s] [ 85%] Built target comCheck
+[0.455s] [ 90%] Built target downloadUSDLogfile
+[0.456s] [ 95%] Built target setParam
+[0.784s] [ 97%] Built target teleop
+[1.274s] [100%] Built target crazyflie_server
+[1.292s] Invoked command in '/CrazySim/crazyswarm2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /CrazySim/crazyswarm2_ws/build/crazyflie -- -j16 -l16
+[1.294s] Invoking command in '/CrazySim/crazyswarm2_ws/build/crazyflie': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/crazyflie
+[1.306s] -- Install configuration: "Release"
+[1.307s] -- Execute custom install script
+[1.307s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/comCheck
+[1.308s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/scan
+[1.308s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/listParams
+[1.308s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/listLogVariables
+[1.308s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/listMemories
+[1.309s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/reboot
+[1.310s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/battery
+[1.310s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/version
+[1.311s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/console
+[1.311s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/log
+[1.311s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/setParam
+[1.311s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/downloadUSDLogfile
+[1.312s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/teleop
+[1.313s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/crazyflie_server
+[1.313s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/crazyflie_server.py
+[1.313s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/chooser.py
+[1.313s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/vel_mux.py
+[1.314s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/cfmult.py
+[1.314s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/simple_mapper_multiranger.py
+[1.314s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/aideck_streamer.py
+[1.314s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/gui.py
+[1.315s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/lib/crazyflie/flash.py
+[1.315s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//launch/launch.py
+[1.315s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//launch/launch_teleop2.py
+[1.316s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//launch/teleop_launch.py
+[1.316s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/aideck_streamer.yaml
+[1.316s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/config.rviz
+[1.316s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/crazyflies.yaml
+[1.317s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/motion_capture.yaml
+[1.317s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/server.yaml
+[1.317s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//config/teleop.yaml
+[1.317s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly.stl
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//urdf/cf2_assembly_with_props.dae
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie//urdf/crazyflie_description.urdf
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/ament_index/resource_index/package_run_dependencies/crazyflie
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/ament_index/resource_index/parent_prefix_path/crazyflie
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.sh
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/environment/ament_prefix_path.dsv
+[1.318s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/environment/path.sh
+[1.319s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/environment/path.dsv
+[1.319s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/local_setup.bash
+[1.319s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/local_setup.sh
+[1.319s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/local_setup.zsh
+[1.319s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/local_setup.dsv
+[1.319s] -- Symlinking: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/package.dsv
+[1.332s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/ament_index/resource_index/packages/crazyflie
+[1.333s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig.cmake
+[1.333s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/cmake/crazyflieConfig-version.cmake
+[1.333s] -- Up-to-date symlink: /CrazySim/crazyswarm2_ws/install/crazyflie/share/crazyflie/package.xml
+[1.336s] Invoked command in '/CrazySim/crazyswarm2_ws/build/crazyflie' returned '0': AMENT_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/lib:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/CrazySim/crazyswarm2_ws/install/motion_capture_tracking_interfaces/local/lib/python3.10/dist-packages:/CrazySim/crazyswarm2_ws/install/crazyflie_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /CrazySim/crazyswarm2_ws/build/crazyflie
